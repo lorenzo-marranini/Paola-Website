@@ -1,0 +1,26 @@
+/* --- DIRETTIVE TAILWIND --- */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --- LE TUE VARIABILI GLOBALI --- */
+:root {
+  --color-primary: #190c74;       
+  --color-primary-hover: #0f0842; 
+  --color-secondary: #ea6105;     
+  --color-accent: #24daff;        
+  
+  --color-text-main: #fbf8f8;     
+  --color-text-dark: #292929;
+  --color-bg-light: #bfd8f4;
+
+  --radius-button: 8px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif; 
+  background-color: var(--color-bg-light);
+  color: var(--color-text-main);
+}
